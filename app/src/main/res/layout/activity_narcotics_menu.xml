@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:padding="10dp"
+    android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="6"
+    android:orientation="vertical"
+    tools:context="auw.imta.destressit.NarcoticsMenu">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Narcotics"
+        android:textSize="30dp"
+        android:fontFamily="roboto_thin"
+        android:textStyle="bold"
+        android:textColor="#3190AD"
+        android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <Button
+
+            android:layout_weight="2"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Quiz"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:fontFamily="roboto_thin"
+            android:textColor="#FCFCFC"
+            android:textStyle="bold"
+            android:background="#3190AD"
+            android:layout_marginTop="10dp"
+            android:id="@+id/quiz"
+            android:onClick="quiz"/>
+
+        <Button
+            android:layout_weight="2"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="roboto_thin"
+            android:textColor="#FCFCFC"
+            android:textStyle="bold"
+            android:background="#3190AD"
+            android:text="Open Forum" />
+
+        <Button
+            android:layout_weight="2"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="roboto_thin"
+            android:textColor="#FCFCFC"
+            android:textStyle="bold"
+            android:background="#3190AD"
+            android:text="Specialists" />
+
+        <Button
+            android:layout_weight="2"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="roboto_thin"
+            android:textColor="#FCFCFC"
+            android:textStyle="bold"
+            android:background="#3190AD"
+            android:text="About" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/userpro"
+            android:id="@+id/userpro"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:onClick="userpro"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

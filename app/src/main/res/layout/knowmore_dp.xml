@@ -1,0 +1,49 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:textColor="#00796b"
+            android:padding="5dp"
+            android:layout_marginBottom="3dp"
+            android:textAlignment="center"
+            android:text="About Vilayanur Subramanian Ramachandran"
+            android:fontFamily="roboto_thin" />
+
+        <ImageView
+            android:layout_height="300dp"
+            android:src="@drawable/exp1dp"
+            android:layout_width="match_parent"
+            android:scaleType="center"
+            android:layout_marginBottom="3dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="17sp"
+            android:textColor="#00796b"
+            android:layout_marginBottom="3dp"
+            android:text="Vilayanur Subramaninan Ramachandran is a professor in psychology at the University of Californian.He is even a well known psychologist residing in the US. He provides counseling patients with depression."
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+</ScrollView>

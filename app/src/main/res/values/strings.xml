@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DESTRESSit</string>
+    <string name="about1">Depression is a common but serious mood disorder. It causes severe symptoms that affect how you feel, think, and handle daily activities, such as sleeping, eating, or working. The WHO reported that 350 million people worldwide suffer from depression.
+        This app is developed to provide the users to share their concerns on depression with other users. All users are anonymous. Through online social networking, users can advise and help each other come across depression. Furthermore, there are links to medical experts with whom users can consult.
+</string>
+<string name="about2"> Over one million people die by suicide worldwide each year.  Sadly, there are many reasons on why people commit suicide. Sometimes they are unable to share their feelings with closed ones. At a certain stage, they feel the tendency to commit suicide.
+This app is developed to provide the users to share their concerns on suicidal tendency with other users. All users are anonymous. Through online social networking, users can advise and help each other come across the problem. Furthermore, there are links to medical experts with whom users can consult.
+
+</string>
+    <string name="about3">About 2 billion people across the world consume alcoholic drinks. Alcohol consumption can harm health as well as social relations.
+This app is developed to provide the users to share their concerns on drinking with other users. All users are anonymous. Through online social networking, users can advise and help each on how to get rid from the habit. Furthermore, there are links to medical experts with whom users can consult.
+
+</string>
+    <string name="about4">Drug consumption is one of the devastating problems of human health. It even causes mental disorders, causing violent behaviors and at a stage it becomes difficult to avoid due to more consumption.
+This app is meant to provide facilities to the people, who are trying to get rid of drug consumption. Users, who are all anonymous, can share their concerns on narcotics with other users to get advice. Besides, there are links to successful medical experts, who can advise users on drug prevention.
+
+    </string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context="auw.imta.destressit.Start">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo3"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:text="Sign Up"
+        android:textSize="30dp"
+        android:layout_weight=".5"
+        android:fontFamily="roboto_thin"
+        android:textColor="#FCFCFC"
+        android:textStyle="bold"
+        android:background="#3190AD"
+        android:layout_marginTop="30dp"
+        android:id="@+id/signup"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:text="Log In"
+        android:textSize="30dp"
+        android:layout_weight=".5"
+        android:fontFamily="roboto_thin"
+        android:textColor="#FCFCFC"
+        android:textStyle="bold"
+        android:background="#3190AD"
+        android:id="@+id/login"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

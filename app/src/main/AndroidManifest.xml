@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="auw.imta.destressit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo3"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Start">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomePage"
+            android:label="Home Page" />
+        <activity
+            android:name=".LogIn"
+            android:label="Log IN" />
+        <activity
+            android:name=".AlcoholismMenu"
+            android:label="Alcoholism" />
+        <activity
+            android:name=".NarcoticsMenu"
+            android:label="Narcotics" />
+        <activity
+            android:name=".DepressionMenu"
+            android:label="Depression" />
+        <activity
+            android:name=".SuicidalMenu"
+            android:label="Suicide" />
+        <activity
+            android:name=".DepressionQuiz"
+            android:label="Depression Quiz" />
+        <activity android:name=".ExternalDB" />
+        <activity android:name=".Newsfeed" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Record" />
+        <activity android:name=".DepressionScore" />
+        <activity android:name=".AlchoholQuiz" />
+        <activity android:name=".AlcoholismScore" />
+        <activity android:name=".NarcoticsQuiz" />
+        <activity android:name=".NarcoticsScore" />
+        <activity android:name=".SuicidalQuiz" />
+        <activity android:name=".about_depression" />
+        <activity android:name=".SuicidalScore"/>
+        <activity android:name=".Expert_depression">
+
+        </activity>
+    </application>
+
+</manifest>
